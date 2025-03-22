@@ -16,8 +16,8 @@ body{
 
 .container{
     position: relative;
-    width: 50vh;
-    height: 50vh;
+    width: 850px;
+    height: 550px;
     background-color: rgb(255, 255, 255);
     border-radius: 30px;
     box-shadow: 0 0 30px rgb(107, 97, 77);
@@ -32,6 +32,7 @@ body{
     display: flex;
     align-items: center;
     text-align: center;
+    padding: 40px;
 }
 
 form{
@@ -41,6 +42,7 @@ form{
 .container h1{
     font-size: 36px;
     margin: -10px 0;
+    font-weight: 700;
 }
 
 .input-box{
@@ -50,7 +52,7 @@ form{
 
 .input-box input {
     width: 100%;
-    padding: 13px;
+    padding: 13px 50px 13px 20px;
     background-color: #eee;
     border-radius: 8px;
     border: none;
@@ -63,4 +65,52 @@ form{
 .input-box input::placeholder {
     color: #888;
     font-weight: 400;
+}
+
+.input-box i {
+    position:absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #272525;
+}
+
+.forget-link {
+    margin: -15px 0 15px;
+
+}
+
+.forget-link a{
+    font-size: 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.btn-login {
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    height: 40px;
+    background: #1b1919;
+    color: #eee;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container p{
+    font-size: 15px;
+    margin: 15px 3px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    padding: 10px;
+    border: 2px solid ;
+    font-size: 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 5px;
 }
